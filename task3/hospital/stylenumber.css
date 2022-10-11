@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;  
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+}
+#sec1{
+    background-color: black;
+    height: 15vh;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+h4{
+    font-size: 2rem;
+    color:RGB(26,77,148);
+    border: 1px solid RGB(26,77,148);
+    padding: 5px;
+    border-radius: 10px;
+    font-weight: 900;
+}
+ul  li{
+    display: inline-block;
+    margin-left: 50px;
+}
+ul li a {
+    color: white;
+    font-size: 1.4rem;
+}
+#sec2{
+    background-attachment: fixed;
+    background-image: url(img/hospital_img.jpg);
+    background-size: cover;
+    height: 85vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+#form_login{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgba(60,60,60,.5);
+    padding: 50px 100px;
+    border-radius: 10px;
+}
+#form_login label{
+    padding: 20px;
+    color:RGB(26,77,148);
+    font-size: 3rem;
+    font-weight: 900;
+}
+#form_login input{
+    display: block;
+    margin-bottom: 20px;
+     padding: 10px 10px;
+     border: none;
+    border-radius: 20px;
+    font-size: 2rem;
+    color: RGB(26,77,148);
+}
+#submit:hover{
+background-color: RGB(26,77,148);
+color: white;
+}
+#sec3{
+    background-attachment: fixed;
+    background-image: url(img/hospital_img.jpg);
+    background-size: cover;
+    height: 85vh;
+}
+
+.phone{
+    font-size: 3rem;
+    background-color: rgba(60,60,160,.5);
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+   margin-bottom: 20px;
+   display: flex;
+}
+span{
+    color: antiquewhite;
+    font-size: 2.5rem;
+    display: inline-block;
+}
+.review{
+    display: flex;
+    justify-content: space-between;
+}
+#form_review {
+    background-color: rgba(60,60,60,.5);
+    padding-right: 20px;
+    border-radius: 10px;
+}
+#form_review input{
+    margin-left: 20px;
+}
+#form_review label {
+    font-size: 1.2rem;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+#sec4{
+    background-attachment: fixed;
+    background-image: url(img/hospital_img.jpg);
+    background-size: cover;
+    height: 85vh;
+}
+.q-a{
+    display: flex;
+    justify-content: space-between;
+   background-color: RGB(26,77,148);
+   color: wheat;
+   padding: 15px 10px;
+   font-size: 2rem;
+}

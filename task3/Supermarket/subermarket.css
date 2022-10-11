@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#sec1{
+   background-image: url(img/background.jpg);
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+.container {
+    width: 80%;
+    margin: auto;
+
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.logo img{
+    width: 300px;
+}
+.logo{
+    width: 47%;
+}
+#form_login{
+    width:100%;
+    background-color: rgba(10,10,10,.5);
+    padding: 20px 60px;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+#form_login label , input {
+    display: block;
+    width: 100%;
+}
+#form_login label{
+    margin-bottom: 10px;
+    font-weight: 900;
+    font-size: 1.3rem;
+    color: wheat;
+}
+#form_login input{
+    margin-bottom: 30px;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid wheat;
+}
+#form_login select{
+    width: 100%;
+    margin-bottom:10px ;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid wheat;
+}
+#submit{
+    background-color: rgba(10,10,10,.5);
+    color: wheat;
+    font-size: 1.5rem;
+}
+#submit:hover{
+    background-color: rgba(10,10,10,1);
+}
+#products{
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: rgba(10,10,10,.7);
+    padding: 10px;
+    border-radius: 5px;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    color: rgb(1, 25, 222);
+    text-align: center;
+   font-weight: 600;
+   width: 100%;
+   margin: 0 auto;
+   margin-top: 20px;
+   background-color: rgba(10,10,10,.7);
+   padding: 10px;
+   border-radius: 5px;
+}
+.content input {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px 5px;
+    border-radius: 5px;
+}
+#receipt{
+    width: 60%;
+    margin: 10px auto;
+    margin-bottom: 0;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid wheat;
+    background-color: rgba(10,10,10,.7);
+    color: wheat;
+    font-size: 1.5rem;
+    display: block;
+}
+#receipt:hover{
+    background-color: rgba(10,10,10,1);
+}
+.bill{
+display: flex;
+justify-content: space-between;
+background-color: rgba(10,10,10,.5);
+margin-top: 50px;
+}
+h2{
+        font-size: 1.6rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    background-color:rgba(10,10,10,.5);
+    border-radius: 10px;
+    padding: 5px 0 ;
+    color: wheat;
+    font-weight: 900;
+}
+.bill div {
+    width: 22%;
+    text-align: center;
+}
+h3{
+  background-color: green;
+  border-radius: 10px;
+  color: wheat;
+}
+.total{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+h4{
+    width: 47%;
+    text-align: center;
+    margin-bottom: 10px;
+    color: wheat;
+    background-color: rgba(10,10,10,.9);
+    font-size: 2rem;
+    border-radius: 10px;
+}
